@@ -11,6 +11,10 @@ default authorized_keys files.
 destination mount point, fsck options and finally the public key(s) to grant
 access to to unlock the volume.
 
+This tool will not work with FDE. The CRYPO discipline must be on a non-booting
+partition or drive.
+
+
 ## Example `/etc/remote-unlock.conf`
 
 ```
