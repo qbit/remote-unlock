@@ -11,7 +11,7 @@ default authorized_keys files.
 destination mount point, fsck options and finally the public key(s) to grant
 access to to unlock the volume.
 
-This tool will not work with FDE. The CRYPO discipline must be on a non-booting
+This tool will not work with FDE. The CRYPTO discipline must be on a non-booting
 partition or drive.
 
 
@@ -42,7 +42,7 @@ Now create your configuration. Device UUIDs can be found by running `disklabel
 sdX` (where X is your device number).
 
 
-No create the `remote-unlock` specific `sshd` config:
+Next create the `remote-unlock` specific `sshd` config:
 
 ```
 /sbin/remote-unlock init
