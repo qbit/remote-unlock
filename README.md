@@ -9,7 +9,7 @@ default authorized_keys files.
 
 `/etc/remote-unlock.conf` contains information on the CRYPTO volume,
 destination mount point, fsck options and finally the public key(s) to grant
-access to to unlock the volume.
+access to unlock the volume.
 
 This tool will not work with FDE. The CRYPTO discipline must be on a non-booting
 partition or drive.
